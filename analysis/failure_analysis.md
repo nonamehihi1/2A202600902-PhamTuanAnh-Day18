@@ -1,51 +1,17 @@
-# Failure Analysis — Lab 18: Production RAG
+# Failure Analysis Report
 
-**Nhóm:** [Tên nhóm]  
-**Thành viên:** [Tên 1 → M1] · [Tên 2 → M2] · [Tên 3 → M3] · [Tên 4 → M4]
+*Lưu ý: Đây là file template tự động tạo. Hãy chạy pipeline thực tế để có điểm RAGAS và điền các câu hỏi bị điểm thấp nhất vào đây.*
 
----
+## Bottom-5 Worst Questions
 
-## RAGAS Scores
+| Câu hỏi | Worst Metric | Điểm số | Chẩn đoán (Diagnosis) | Đề xuất sửa chữa (Suggested Fix) |
+|---|---|---|---|---|
+| (Ví dụ) Nhân viên nghỉ thai sản được hưởng bao nhiêu tháng? | `context_recall` | 0.25 | Missing relevant chunks | Improve chunking or add BM25 |
+| 1. |  |  |  |  |
+| 2. |  |  |  |  |
+| 3. |  |  |  |  |
+| 4. |  |  |  |  |
+| 5. |  |  |  |  |
 
-| Metric | Naive Baseline | Production | Δ |
-|--------|---------------|------------|---|
-| Faithfulness | | | |
-| Answer Relevancy | | | |
-| Context Precision | | | |
-| Context Recall | | | |
-
-## Bottom-5 Failures
-
-### #1
-- **Question:**
-- **Expected:**
-- **Got:**
-- **Worst metric:**
-- **Error Tree:** Output sai → Context đúng? → Query OK? →
-- **Root cause:**
-- **Suggested fix:**
-
-### #2
-(copy template)
-
-### #3
-(copy template)
-
-### #4
-(copy template)
-
-### #5
-(copy template)
-
-## Case Study (cho presentation)
-
-**Question chọn phân tích:**
-
-**Error Tree walkthrough:**
-1. Output đúng? →
-2. Context đúng? →
-3. Query rewrite OK? →
-4. Fix ở bước:
-
-**Nếu có thêm 1 giờ, sẽ optimize:**
--
+## Phân tích chung
+(Viết 1-2 đoạn văn nhận xét về các lỗi phổ biến nhất và cách khắc phục trong tương lai)
